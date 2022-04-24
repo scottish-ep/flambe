@@ -1,0 +1,50 @@
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./features/**/*.{js,ts,jsx,tsx}",
+  ],
+  mode: "jit",
+  theme: {
+    extend: {
+      spacing: {
+        "6px": "6px",
+        "8px": "8px",
+        "10px": "10px",
+        "12px": "12px",
+        "13px": "13px",
+        "14px": "14px",
+        "15px": "15px",
+        "16px": "16px",
+        "18px": "18px",
+        "20px": "20px",
+        "22px": "22px",
+        "24px": "24px",
+        "26px": "26px",
+        "28px": "28px",
+        "30px": "30px",
+        "32px": "32px",
+        "48px": "48px",
+        "90px": "90px",
+        "120px": "120px",
+      },
+      fontSize: {
+        "12px": ["12px", "17px"],
+        "13px": ["13px", "19px"],
+        "14px": ["14px", "20px"],
+        "16px": ["16px", "24px"],
+        "18px": ["18px", "25px"],
+        "20px": ["20px", "28px"],
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
+      screens: {
+        web: { min: "835px" },
+        tablet: { min: "485px", max: "884px" },
+        mobile: { max: "485px" },
+      },
+    },
+  },
+  plugins: [],
+};
